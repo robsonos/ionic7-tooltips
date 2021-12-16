@@ -64,8 +64,9 @@ And here's another example to show a tooltip below a nav button:
 npm install ionic4-tooltips --save
 ```
 
-* For AngularJS + Ionic 3 ([v0.0.1](https://github.com/jrquick17/ionic4-tooltips/releases/tag/v0.0.1)): `npm install ionic4-tooltips@0.0.1 --save`
-* For Angular 2-7 + Ionic 3 ([v1.0.0](https://github.com/jrquick17/ionic4-tooltips/releases/tag/v1.0.0)): `npm install ionic4-tooltips@1.0.0 --save`
+* For AngularJS & Ionic 2 ([v0.0.1](https://github.com/jrquick17/ionic4-tooltips/releases/tag/v0.0.1)): `npm install ionic4-tooltips@0.0.1 --save`
+* For Angular 2-7 & Ionic 3+ ([v1.0.0](https://github.com/jrquick17/ionic4-tooltips/releases/tag/v1.0.0)): `npm install ionic4-tooltips@^1.0.0 --save`
+* For Angular 8+ & Ionic 4+ ([v2.0.0](https://github.com/jrquick17/ionic4-tooltips/releases/tag/v2.0.0)): `npm install ionic4-tooltips@^2.0.0 --save`
 
 2.  Import `TooltipsModule` in your `@NgModule`. If you are using lazy module loading, then you need to import it in the modules where it's used.
 
