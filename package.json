@@ -3,7 +3,7 @@
   "version": "2.1.0",
   "description": "Tooltips module for Ionic 2+ and Angular 8+ apps",
   "scripts": {
-    "build": "ng-packagr -p package.json && cp -r src/assets dist/assets",
+    "build": "ng-packagr -p projects/ionic4-tooltips/ng-package.json && cp -r src/assets dist/assets",
     "build:link": "npm run build && cd dist/ && npm link",
     "demo": "cd demo && ionic serve",
     "demo:build": "cd demo && npm install && ionic build --configuration production && cd ..",
