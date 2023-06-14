@@ -10,9 +10,6 @@ import {TooltipDirective} from './directives/tooltip.directive';
     TooltipDirective,
     TooltipBox
   ],
-  entryComponents: [
-    TooltipBox
-  ],
   exports: [
     TooltipDirective
   ],
