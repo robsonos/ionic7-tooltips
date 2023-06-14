@@ -246,7 +246,7 @@ export class TooltipDirective implements OnInit, AfterViewInit, OnDestroy {
     if (this.positionH === 'right') {
       positionLeft = rect.right + spacing;
     } else if (this.positionH === 'left') {
-      positionLeft = rect.left - spacing - tooltipNativeElement.offsetWidth;
+      positionLeft = rect.left - spacing - tooltipNativeElement.offsetWidth - 79;
       // -79, 19
     } else if (this.navTooltip) {
       positionLeft = rect.left + el.offsetWidth / 2;
@@ -261,6 +261,9 @@ export class TooltipDirective implements OnInit, AfterViewInit, OnDestroy {
       positionTop = rect.bottom + spacing;
     } else {
       positionTop = rect.top + el.offsetHeight / 2 - tooltipNativeElement.offsetHeight / 2;
+      if (this.positionH === 'left') {
+        positionTop =  positionTop + 19
+      }
     }
 
     this.topOffset++;
